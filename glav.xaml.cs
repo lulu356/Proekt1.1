@@ -28,6 +28,7 @@ namespace Proekt
         {
             InitializeComponent();
             frameM.Navigate(new Page1());
+
         }
 
         private void LK(object sender, RoutedEventArgs e)
@@ -52,61 +53,61 @@ namespace Proekt
         private void less_1_Click(object sender, RoutedEventArgs e)
         {
             frameM.Navigate(new Page1(1));
-            this.less_1.Visibility = Visibility.Hidden;
+            this.less_1_Copy.Visibility = Visibility.Hidden;
         }
 
         private void less_2_Click(object sender, RoutedEventArgs e)
         {
             frameM.Navigate(new Page1(2));
-            this.less_1.Visibility = Visibility.Hidden;
+            this.less_2_Copy.Visibility = Visibility.Hidden;
         }
 
         private void less_3_Click(object sender, RoutedEventArgs e)
         {
             frameM.Navigate(new Page1(3));
-            this.less_1.Visibility = Visibility.Hidden;
+            this.less_3_Copy.Visibility = Visibility.Hidden;
         }
 
         private void less_4_Click(object sender, RoutedEventArgs e)
         {
             frameM.Navigate(new Page1(4));
-            this.less_1.Visibility = Visibility.Hidden;
+            this.less_4_Copy.Visibility = Visibility.Hidden;
         }
 
         private void less_5_Click(object sender, RoutedEventArgs e)
         {
             frameM.Navigate(new Page1(5));
-            this.less_1.Visibility = Visibility.Hidden;
+            this.less_5_Copy.Visibility = Visibility.Hidden;
         }
 
         private void less_6_Click(object sender, RoutedEventArgs e)
         {
             frameM.Navigate(new Page1(6));
-            this.less_1.Visibility = Visibility.Hidden;
+            this.less_6_Copy.Visibility = Visibility.Hidden;
         }
 
         private void less_7_Click(object sender, RoutedEventArgs e)
         {
             frameM.Navigate(new Page1(7));
-            this.less_1.Visibility = Visibility.Hidden;
+            this.less_7_Copy.Visibility = Visibility.Hidden;
         }
 
         private void less_8_Click(object sender, RoutedEventArgs e)
         {
             frameM.Navigate(new Page1(8));
-            this.less_1.Visibility = Visibility.Hidden;
+            this.less_8_Copy.Visibility = Visibility.Hidden;
         }
 
         private void less_9_Click(object sender, RoutedEventArgs e)
         {
             frameM.Navigate(new Page1(9));
-            this.less_1.Visibility = Visibility.Hidden;
+            this.less_9_Copy.Visibility = Visibility.Hidden;
         }
 
         private void less_10_Click(object sender, RoutedEventArgs e)
         {
             frameM.Navigate(new Page1(10));
-            this.less_1.Visibility = Visibility.Hidden;
+            this.less_10_Copy.Visibility = Visibility.Hidden;
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
@@ -114,6 +115,76 @@ namespace Proekt
             Avtoriz Avtoriz = new Avtoriz();
             this.Close();
             Avtoriz.ShowDialog();
+        }
+
+        private void test_1_Copy_Click(object sender, RoutedEventArgs e)
+        {
+            testing testing = new testing();
+            this.Close();
+            testing.ShowDialog();
+        }
+
+        private void test_2_Copy_Click(object sender, RoutedEventArgs e)
+        {
+            testing testing = new testing();
+            this.Close();
+            testing.ShowDialog();
+        }
+
+        private void test_3_Copy_Click(object sender, RoutedEventArgs e)
+        {
+            testing testing = new testing();
+            this.Close();
+            testing.ShowDialog();
+        }
+
+        private void test_4_Copy_Click(object sender, RoutedEventArgs e)
+        {
+            testing testing = new testing();
+            this.Close();
+            testing.ShowDialog();
+        }
+
+        private void test_5_Copy_Click(object sender, RoutedEventArgs e)
+        {
+            testing testing = new testing();
+            this.Close();
+            testing.ShowDialog();
+        }
+
+        private void test_6_Copy_Click(object sender, RoutedEventArgs e)
+        {
+            testing testing = new testing();
+            this.Close();
+            testing.ShowDialog();
+        }
+
+        private void test_7_Copy_Click(object sender, RoutedEventArgs e)
+        {
+            testing testing = new testing();
+            this.Close();
+            testing.ShowDialog();
+        }
+
+        private void test_8_Copy_Click(object sender, RoutedEventArgs e)
+        {
+            testing testing = new testing();
+            this.Close();
+            testing.ShowDialog();
+        }
+
+        private void test_9_Copy_Click(object sender, RoutedEventArgs e)
+        {
+            testing testing = new testing();
+            this.Close();
+            testing.ShowDialog();
+        }
+
+        private void test_10_Copy_Click(object sender, RoutedEventArgs e)
+        {
+            testing testing = new testing();
+            this.Close();
+            testing.ShowDialog();
         }
     }
 }

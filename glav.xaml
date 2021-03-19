@@ -9,23 +9,34 @@
         Title="glav" Height="450" Width="800" Background="WhiteSmoke">
     <Grid>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="150"/>
+            <ColumnDefinition Width="160"/>
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
         <ScrollViewer HorizontalAlignment="Left" Height="403" Margin="4,8,0,0" VerticalAlignment="Top" Width="781">
             <TextBox Height="23" TextWrapping="Wrap" Text=" " x:Name="ur" Width="120"/>
         </ScrollViewer>
         <StackPanel Grid.Column="0" >
-            <Button Content="Лекция 1" x:Name="less_1"  Margin="5" Height="30" Background="#0000FFFF" BorderBrush="Red" Click="less_1_Click"/>
-            <Button Content="Лекция 2" x:Name="less_2"  Margin="5" Height="30" Background="#0000FFFF" BorderBrush="Red" Click="less_2_Click"/>
-            <Button Content="Лекция 3" x:Name="less_3"  Margin="5" Height="30" Background="#0000FFFF" BorderBrush="Red" Click="less_3_Click"/>
-            <Button Content="Лекция 4" x:Name="less_4"  Margin="5" Height="30" Background="#0000FFFF" BorderBrush="Red" Click="less_4_Click"/>
-            <Button Content="Лекция 5" x:Name="less_5"  Margin="5" Height="30" Background="#0000FFFF" BorderBrush="Red" Click="less_5_Click"/>
-            <Button Content="Лекция 6" x:Name="less_6"  Margin="5" Height="30" Background="#0000FFFF" BorderBrush="Red" Click="less_6_Click"/>
-            <Button Content="Лекция 7" x:Name="less_7"  Margin="5" Height="30" Background="#0000FFFF" BorderBrush="Red" Click="less_7_Click"/>
-            <Button Content="Лекция 8" x:Name="less_8"  Margin="5" Height="30" Background="#0000FFFF" BorderBrush="Red" Click="less_8_Click"/>
-            <Button Content="Лекция 9" x:Name="less_9"  Margin="5" Height="30" Background="#0000FFFF" BorderBrush="Red" Click="less_9_Click"/>
-            <Button Content="Лекция 10" x:Name="less_10"  Margin="5" Height="30" Background="#0000FFFF" BorderBrush="Red" Click="less_10_Click"/>
+            <Button Content="Лекция 1" x:Name="less_1_Copy"  Margin="5,5,65,5" Height="30" Background="#0000FFFF" BorderBrush="Red" Click="less_1_Click"/>
+            <Button Content="Лекция 2" x:Name="less_2_Copy"  Margin="5,5,65,5" Height="30" Background="#0000FFFF" BorderBrush="Red" Click="less_2_Click"/>
+            <Button Content="Лекция 3" x:Name="less_3_Copy"  Margin="5,5,65,5" Height="30" Background="#0000FFFF" BorderBrush="Red" Click="less_3_Click"/>
+            <Button Content="Лекция 4" x:Name="less_4_Copy"  Margin="5,5,65,5" Height="30" Background="#0000FFFF" BorderBrush="Red" Click="less_4_Click"/>
+            <Button Content="Лекция 5" x:Name="less_5_Copy"  Margin="5,5,65,5" Height="30" Background="#0000FFFF" BorderBrush="Red" Click="less_5_Click"/>
+            <Button Content="Лекция 6" x:Name="less_6_Copy"  Margin="5,5,65,5" Height="30" Background="#0000FFFF" BorderBrush="Red" Click="less_6_Click"/>
+            <Button Content="Лекция 7" x:Name="less_7_Copy"  Margin="5,5,65,5" Height="30" Background="#0000FFFF" BorderBrush="Red" Click="less_7_Click"/>
+            <Button Content="Лекция 8" x:Name="less_8_Copy"  Margin="5,5,65,5" Height="30" Background="#0000FFFF" BorderBrush="Red" Click="less_8_Click"/>
+            <Button Content="Лекция 9" x:Name="less_9_Copy"  Margin="5,5,65,5" Height="30" Background="#0000FFFF" BorderBrush="Red" Click="less_9_Click"/>
+            <Button Content="Лекция 10" x:Name="less_10_Copy"  Margin="5,5,65,5" Height="30" Background="#0000FFFF" BorderBrush="Red" Click="less_10_Click"/>
+
+            <Button Content="Тест 1" x:Name="test_1_Copy"  Margin="100,-755,6,5" Height="30" Background="#0000FFFF" BorderBrush="Red" Click="test_1_Copy_Click"/>
+            <Button Content="Тест 2" x:Name="test_2_Copy"  Margin="100,-675,6,5" Height="30" Background="#0000FFFF" BorderBrush="Red" Click="test_2_Copy_Click" />
+            <Button Content="Тест 3" x:Name="test_3_Copy"  Margin="100,-595,6,5" Height="30" Background="#0000FFFF" BorderBrush="Red" Click="test_3_Copy_Click" />
+            <Button Content="Тест 4" x:Name="test_4_Copy"  Margin="100,-515,6,5" Height="30" Background="#0000FFFF" BorderBrush="Red" Click="test_4_Copy_Click"/>
+            <Button Content="Тест 5" x:Name="test_5_Copy"  Margin="100,-435,6,5" Height="30" Background="#0000FFFF" BorderBrush="Red" Click="test_5_Copy_Click" />
+            <Button Content="Тест 6" x:Name="test_6_Copy"  Margin="100,-355,6,5" Height="30" Background="#0000FFFF" BorderBrush="Red" Click="test_6_Copy_Click" />
+            <Button Content="Тест 7" x:Name="test_7_Copy"  Margin="100,-275,6,5" Height="30" Background="#0000FFFF" BorderBrush="Red" Click="test_7_Copy_Click" />
+            <Button Content="Тест 8" x:Name="test_8_Copy"  Margin="100,-195,6,5" Height="30" Background="#0000FFFF" BorderBrush="Red" Click="test_8_Copy_Click"/>
+            <Button Content="Тест 9" x:Name="test_9_Copy"  Margin="100,-115,6,5" Height="30" Background="#0000FFFF" BorderBrush="Red" Click="test_9_Copy_Click" />
+            <Button Content="Тест 10" x:Name="test_10_Copy"  Margin="100,-35,6,5" Height="30" Background="#0000FFFF" BorderBrush="Red" Click="test_10_Copy_Click" />
 
         </StackPanel>
         <Button Content="" Grid.Column="1" HorizontalAlignment="Left" Margin="567,0,0,0" VerticalAlignment="Top" Width="75" Height="62" Click="LK">
@@ -33,7 +44,7 @@
                 <ImageBrush ImageSource="lk.jpg"/>
             </Button.Background>
         </Button>
-        <Frame Grid.Column="1" x:Name="frameM" NavigationUIVisibility="Hidden" Margin="0,0,82,0"/>
+        <Frame Grid.Column="1" x:Name="frameM" NavigationUIVisibility="Hidden" Margin="10,0,82,0"/>
         <!--<Label Content="Описание модуля" Grid.Column="1" HorizontalAlignment="Left" Margin="80,131,0,0" VerticalAlignment="Top" Height="72" Width="453" FontWeight="Bold" FontSize="48"/>-->
 
         <Button Content=" " HorizontalAlignment="Left" Margin="590,374,0,0" VerticalAlignment="Top" Height="42" FontSize="18" BorderBrush="#0000FFFF" Width="46" Grid.Column="1" Click="Button_Click">

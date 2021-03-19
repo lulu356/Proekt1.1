@@ -11,35 +11,31 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace Proekt
 {
     /// <summary>
-    /// Логика взаимодействия для Page1.xaml
+    /// Логика взаимодействия для Page2.xaml
     /// </summary>
-    public partial class Page1 : Page
+    public partial class Page2 : Window
     {
-        private int num = 0;
-       
-        public Page1()
+        private int numP = 0;
+        public Page2()
         {
             InitializeComponent();
-            
-
         }
-        public Page1(int pageNum)
+        public Page2(int Num)
         {
             InitializeComponent();
-            num = pageNum;
-            
+            numP = Num;
+
         }
 
-        private void Page_Loaded(object sender, RoutedEventArgs e)
+        private void Test_Loaded(object sender, RoutedEventArgs e)
         {
-            StreamReader sr = new StreamReader($@"C:\Users\WSR\source\repos\Proekt\less\less{num}.txt");
-            ur.Text = sr.ReadToEnd();
+            StreamReader pr = new StreamReader($@"C:\Users\WSR\source\repos\Proekt\less\less{numP}.txt");
+            fr.Text = pr.ReadToEnd();
         }
     }
 }
