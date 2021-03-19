@@ -1,0 +1,21 @@
+﻿<Window x:Class="Proekt.admVhod"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Proekt"
+        mc:Ignorable="d"
+        Title="admVhod" Height="400" Width="400" Background="WhiteSmoke">
+    <Grid>
+        <Label Content="Логин:" HorizontalAlignment="Left" Margin="5,64,0,0" VerticalAlignment="Top" Height="45" Width="100" Foreground="Black" FontSize="22"/>
+        <Label Content="Пароль:" HorizontalAlignment="Left" Margin="2,180,0,0" VerticalAlignment="Top" Height="45" Width="100" Foreground="Black" FontSize="22"/>
+        <TextBox HorizontalAlignment="Left" Margin="106,66,0,0" TextWrapping="Wrap" Text=" " VerticalAlignment="Top" Height="45" Width="256"/>
+        <PasswordBox HorizontalAlignment="Left" Margin="106,180,0,0" VerticalAlignment="Top" Height="45" Width="256"/>
+        <Button Content=" " HorizontalAlignment="Left" Margin="156,280,0,0" VerticalAlignment="Top" Width="68" Height="50" FontSize="18" FontWeight="Bold" >
+            <Button.Background >
+                <ImageBrush ImageSource="vh.jpg"/>
+            </Button.Background>
+        </Button>
+
+    </Grid>
+</Window>

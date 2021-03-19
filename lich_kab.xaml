@@ -1,0 +1,20 @@
+﻿<Window x:Class="Proekt.lich_kab"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Proekt"
+        mc:Ignorable="d"
+        Title="lich_kab" Height="350" Width="600" Background="WhiteSmoke">
+    <Grid>
+        <Image Margin="29,18,443,166" Source="Image1.png" Stretch="Fill" />
+        <Label Content="ФИО: " HorizontalAlignment="Left" Margin="159,18,0,0" VerticalAlignment="Top" Width="349"/>
+        <Label Content="Почта:" HorizontalAlignment="Left" Margin="159,57,0,0" VerticalAlignment="Top" Width="349"/>
+        <Label Content="Телефон:" HorizontalAlignment="Left" Margin="159,107,0,0" VerticalAlignment="Top" Width="349"/>
+        <Label Content="Сколько тестов пройдено:" HorizontalAlignment="Left" Margin="29,154,0,0" VerticalAlignment="Top" Width="479"/>
+        <Label Content="Недавние места:" HorizontalAlignment="Left" Margin="29,194,0,0" VerticalAlignment="Top" Width="479"/>
+        <Button Content="Назад" x:Name="back" HorizontalAlignment="Left" Margin="29,276,0,0" VerticalAlignment="Top" Width="83"  BorderBrush="Red" Background="#0000FFFF" Click="back_Click" />
+        <Button Content="Вход админ" x:Name="vibor" HorizontalAlignment="Left" Margin="483,276,0,0" VerticalAlignment="Top" Width="83"  BorderBrush="Red" Background="#0000FFFF" Click="vibor_Click" />
+
+    </Grid>
+</Window>
