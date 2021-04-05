@@ -35,7 +35,7 @@ namespace Proekt
         private void Test_Loaded(object sender, RoutedEventArgs e)
         {
             StreamReader pr = new StreamReader($@"C:\Users\WSR\source\repos\Proekt\less\less{numP}.txt");
-            fr.Text = pr.ReadToEnd();
+            ur.Text = pr.ReadToEnd();
         }
     }
 }

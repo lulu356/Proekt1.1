@@ -7,6 +7,6 @@
         mc:Ignorable="d"
         Title="adm" Height="450" Width="800" Background="WhiteSmoke">
     <Grid>
-        
+        <TextBlock Text="В разработке:)"/>
     </Grid>
 </Window>

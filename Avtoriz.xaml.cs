@@ -20,7 +20,7 @@ namespace Proekt
     /// </summary>
     public partial class Avtoriz : Window
     {
-
+       
         private void vhod1_Click(object sender, RoutedEventArgs e)
         {
             glav glav = new glav();

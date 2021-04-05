@@ -11,7 +11,7 @@
         <Label Content="Пароль:" HorizontalAlignment="Left" Margin="2,180,0,0" VerticalAlignment="Top" Height="45" Width="100" Foreground="Black" FontSize="22"/>
         <TextBox HorizontalAlignment="Left" Margin="106,66,0,0" TextWrapping="Wrap" Text=" " VerticalAlignment="Top" Height="45" Width="256"/>
         <PasswordBox HorizontalAlignment="Left" Margin="106,180,0,0" VerticalAlignment="Top" Height="45" Width="256"/>
-        <Button Content=" " HorizontalAlignment="Left" Margin="156,280,0,0" VerticalAlignment="Top" Width="68" Height="50" FontSize="18" FontWeight="Bold" >
+        <Button Content=" " HorizontalAlignment="Left" Margin="156,280,0,0" VerticalAlignment="Top" Width="68" Height="50" FontSize="18" FontWeight="Bold" Click="Button_Click" >
             <Button.Background >
                 <ImageBrush ImageSource="vh.jpg"/>
             </Button.Background>

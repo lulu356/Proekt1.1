@@ -21,16 +21,9 @@ namespace Proekt
     /// </summary>
     public partial class testing : Window
     {
-        private int Num = 1;
-        public testing()
-        {
-            InitializeComponent();
-            frameT.Navigate(new Page2());
-        }
-
-        private void frameT_Navigated(object sender, NavigationEventArgs e)
-        {
-
-        }
+        
+        
+      
+        
     }
 }

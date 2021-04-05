@@ -21,8 +21,8 @@ namespace Proekt
     /// Логика взаимодействия для avtoriz.xaml
     /// </summary>
     public partial class glav : Window
-
     {
+        public bd_demoEntities bd_Demo = new bd_demoEntities();
         private int pageNum = 1; 
         public glav()
         {
@@ -116,10 +116,16 @@ namespace Proekt
             this.Close();
             Avtoriz.ShowDialog();
         }
-
+        private int Num = 1;
+        private void Test_Loaded(object sender, RoutedEventArgs e)
+        {
+            StreamReader stream = new StreamReader($@"C: \Users\WSR\source\repos\Proekt\tests\tests{Num}.txt");
+            ur.Text = stream.ReadToEnd();
+        }
         private void test_1_Copy_Click(object sender, RoutedEventArgs e)
         {
             testing testing = new testing();
+            
             this.Close();
             testing.ShowDialog();
         }

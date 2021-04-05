@@ -23,5 +23,12 @@ namespace Proekt
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            adm adm = new adm();
+            this.Close();
+            adm.ShowDialog();
+        }
     }
 }

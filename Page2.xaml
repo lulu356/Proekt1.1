@@ -8,13 +8,19 @@
         Loaded="Test_Loaded"
         Title="Page2" Height="450" Width="800">
     <Grid>
+        <Frame x:Name="frameT" NavigationUIVisibility="Hidden" Margin="25,15,27,154" Background="LightPink"/>
+        <CheckBox Content="A" x:Name="otvA" FontSize="13"  HorizontalContentAlignment="Stretch" HorizontalAlignment="Left" Width="40" Height="20" Margin="30,280,0,119" FontWeight="Bold" />
+        <CheckBox Content="B" x:Name="otvB" FontSize="13"  HorizontalContentAlignment="Stretch" HorizontalAlignment="Left" Width="40" Height="20" Margin="30,310,0,89" FontWeight="Bold" />
+        <CheckBox Content="C" x:Name="otvC" FontSize="13"  HorizontalContentAlignment="Stretch" HorizontalAlignment="Left" Width="40" Height="20" Margin="30,340,0,59" FontWeight="Bold" />
+        <CheckBox Content="D" x:Name="otvD" FontSize="13"  HorizontalContentAlignment="Stretch" HorizontalAlignment="Left" Width="40" Height="20" Margin="30,370,0,29" FontWeight="Bold" />
+
         <ScrollViewer>
 
             <TextBlock 
             Background="WhiteSmoke"  
             TextWrapping="Wrap" 
             Text=" rhyd" 
-            x:Name="fr" />
+            x:Name="ur" Height="106" Width="717" />
 
 
         </ScrollViewer>
