@@ -27,6 +27,7 @@ namespace Proekt
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             Avtoriz Avtoriz = new Avtoriz();
+            this.Close();
             Avtoriz.ShowDialog();
         }
     }

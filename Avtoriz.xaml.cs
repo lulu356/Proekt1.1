@@ -24,18 +24,21 @@ namespace Proekt
         private void vhod1_Click(object sender, RoutedEventArgs e)
         {
             glav glav = new glav();
+            this.Close();
             glav.ShowDialog();
         }
 
         private void but_reg(object sender, RoutedEventArgs e)
         {
             reg reg = new reg();
+            this.Close();
             reg.ShowDialog();
         }
 
         private void zab_par(object sender, RoutedEventArgs e)
         {
             Pass Pass = new Pass();
+            this.Close();
             Pass.ShowDialog();
         }
     }

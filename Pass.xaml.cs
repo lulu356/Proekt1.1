@@ -27,6 +27,7 @@ namespace Proekt
         private void kod_perehod(object sender, RoutedEventArgs e)
         {
             Kod_pass Kod_pass = new Kod_pass();
+            this.Close();
             Kod_pass.ShowDialog();
         }
     }

@@ -21,9 +21,5 @@ namespace Proekt
     /// </summary>
     public partial class testing : Window
     {
-        
-        
-      
-        
     }
 }
